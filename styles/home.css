@@ -1,1 +1,33 @@
 /* add home page styles here */
+.hide {
+    display: none;
+}
+
+#goldDiv img {
+    height: 128px;
+}
+
+#hpDiv {
+    text-align: center;
+}
+
+.goblin img {
+    height: 128px;
+}
+
+.goblin {
+    text-align: center;
+}
+
+.dead {
+    height: 128px;
+    width: 128px;
+    color: red;
+    font-weight: bolder;
+}
+
+#goblinArea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
